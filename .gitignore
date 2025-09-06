@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+bulgari_env/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Dataset (too large for GitHub)
+dataset/
+training_data/
+quick_dataset/
+test_dataset/
+bulgari_authentication/dataset/
+
+# Model files (usually too large)
+*.pth
+*.pt
+*.onnx
+*.h5
+best_pendant_model.pth
+models/*.pth
+checkpoints/
+
+# Generated files
+*.jpg
+*.png
+*.jpeg
+!assets/*.jpg
+!assets/*.png
+calibration/
+test_views/
+results/
+logs/
+
+# 3D Model (if proprietary)
+# Uncomment if you don't want to share the GLB file
+# *.glb
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+temp/
+tmp/
+
+# Config with sensitive data
+config/local_config.json
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# PyRender specific
+.pyrender_cache/
+
+# Large data files
+*.zip
+*.tar.gz
+*.rar
+
+# Fake images (copyright concerns)
+fake_images/
+fake_pendants/
+
+# Metadata
+metadata.json
+*/metadata.json
+
+# Personal notes
+notes.txt
+TODO.txt
+personal/
